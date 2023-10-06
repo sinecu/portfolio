@@ -1,0 +1,310 @@
+﻿body {
+    margin: 0;
+    line-height: inherit;
+    background-color: #FBF9EF;
+    font-family: 'Rubik';
+    font-size: 22px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+div{
+    display:block;
+}
+.navigatie {
+    background-color: #F7F3DE;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 300;
+}
+.logo{
+    color:black;
+    height:50px;
+    font-size:36px;
+    line-height:60px;
+    margin-left:80px;
+    padding:0 20px;
+    text-align:center;
+    box-sizing: border-box;
+    float:left;
+    font-weight:700;
+    text-decoration:none;
+}
+nav{
+    float:right;
+    margin-right:80px;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+nav ul li{
+    list-style:none;
+}
+nav ul li a{
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    text-decoration:none;
+    color:black;
+}
+nav ul li a:hover{
+    color:darkorange;
+}
+.bfnegru{
+    background-color:black;
+    color:white;
+    border-radius:10px;
+}
+.fverde {
+    background-color: #A6DDCD;
+    padding-top:60px;
+    box-sizing: border-box;
+    height: 740px;
+}
+.container {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.homestanga{
+    width: 50%;
+    margin-top: 10%;
+}
+.homedreapta{
+    width: 50%;
+}
+.pozaprofil {
+    max-width: 100%;
+    max-height: 95.58%;
+    position: relative;
+    top:40px;
+}
+.butoanehiring{
+    display: flex;
+}
+.butonhiringn button {
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration:none;
+}
+.butonhiringa button {
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: darkorange;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    color: white;
+}
+.container1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.falb {
+    padding-top: 60px;
+}
+.skilluri {
+    column-count: 3;
+    column-gap: 50px;
+    text-align: center;
+}
+.skill {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+}
+.skill img {
+    height: 50%;
+    max-width: 50%;
+}
+.workss{
+    column-count:2;
+    column-gap:50px;
+    text-align:center;
+}
+.workss a{
+    text-decoration:none;
+    color:black;
+}
+.work {
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+}
+.work img{
+    height: auto;
+    max-width:100%;
+    border-radius:10px;
+}
+.work:hover img {
+    filter: blur(1px);
+}
+
+.descrierework {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    height:80%;
+    padding-top:10%;
+}
+
+.descrierework:hover {
+    opacity: 1;
+}
+.work p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.calificari{
+    column-count:2;
+    column-gap:50px;
+    text-align:center;
+}
+.calificare {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color:transparent;
+}
+.descriere{
+    text-align:left;
+    border-style:solid;
+    border-width:2px;
+    border-radius:10px;
+    border-color:darkorange;
+    padding-left:5px;
+    padding-right:5px;
+}
+.borderrotund {
+    width:fit-content;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: darkgray;
+    margin-left:30%;
+    margin-right:30%;
+    padding-left:10px;
+    padding-right:10px;
+}
+.descriere h1 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.gri {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color:dimgrey;
+}
+.portocaliu {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: darkorange;
+}
+.contactdiv {
+    column-count: 2;
+    column-gap: 50px;
+    text-align: center;
+    padding-top:20px;
+}
+.stanga{
+    width:100%;
+    text-align:left;
+    padding-left: 10%;
+    padding-right:10%;
+}
+.dreapta {
+    width: 100%;
+}
+.chenar {
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom:20px;
+    border-color:transparent;
+}
+textarea{
+    resize: none;
+}
+.butonportocaliu {
+    background-color: darkorange;
+    border-radius: 10px;
+    width: 85%;
+    margin-bottom: 20px;
+    border-color: transparent;
+    padding-top:8px;
+    padding-bottom:8px;
+    color:white;
+}
+.butonportocaliu:hover{
+    color:black;
+}
+.titlu span {
+    width: 80%;
+    height: 1.4px;
+    left:10%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+    display:block;
+    position:absolute;
+}
+.titlu h1 {
+    margin-bottom: 0px;
+    color: darkgrey;
+}
+.jos{
+    background-color:darkorange;
+    text-align:center;
+    margin-bottom:0px;
+    padding-bottom:20px;
+}
+.jos h3{
+   padding-top:20px;
+   margin-top:0px;
+   margin-bottom:0px;
+}
