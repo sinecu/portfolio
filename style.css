@@ -5,6 +5,9 @@
     font-family: 'Rubik';
     font-size: 22px;
 }
+a{
+    text-decoration:none;
+}
 @media (prefers-reduced-motion: no-preference) {
     html {
         scroll-behavior: smooth;
