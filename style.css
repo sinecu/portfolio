@@ -86,7 +86,7 @@ nav ul li a:hover{
 }
 .pozaprofil {
     position: 0px;
-    margin: auto;
+    height: 100%
     position: relative;
     top:40px;
 }
